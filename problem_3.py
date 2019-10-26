@@ -62,6 +62,10 @@ def merge(left, right):
 
     return merged
 
+"""
+References:
+    Udacity: Data Structures and Nanodegree Program - 3. Basic Algorithms
+"""
 
 if __name__ == '__main__':
 

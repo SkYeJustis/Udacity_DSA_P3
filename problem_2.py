@@ -60,6 +60,11 @@ def rotated_array_search(nums, target):
             result = binary_search(nums[:rotate_index], target)
         return result
 
+"""
+References:
+    Udacity: Data Structures and Nanodegree Program - 3. Basic Algorithms
+"""
+
 if __name__ == '__main__':
     def linear_search(input_list, number):
         for index, element in enumerate(input_list):

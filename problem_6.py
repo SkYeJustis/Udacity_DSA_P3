@@ -31,7 +31,10 @@ def get_min_max(ints):
 
     return (min, max)
 
-
+"""
+References:
+    Udacity: Data Structures and Nanodegree Program - 3. Basic Algorithms
+"""
 
 if __name__ == '__main__':
     ## Example Test Case of Ten Integers

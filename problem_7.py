@@ -85,6 +85,10 @@ class Router:
         # so it should be placed in a function here
         return path.split('/')
 
+"""
+References:
+    Udacity: Data Structures and Nanodegree Program - 3. Basic Algorithms
+"""
 
 if __name__ == '__main__':
     # Here are some test cases and expected outputs you can use to test your implementation

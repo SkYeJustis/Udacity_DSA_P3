@@ -27,6 +27,11 @@ def sort_012(input_list):
 
     return input_list
 
+"""
+References:
+    Udacity: Data Structures and Nanodegree Program - 3. Basic Algorithms
+"""
+
 if __name__ == '__main__':
 
     def test_function(test_case):

@@ -28,6 +28,10 @@ def sqrt(number):
     # Otherwise return the high number
     return high
 
+"""
+References:
+    Udacity: Data Structures and Nanodegree Program - 3. Basic Algorithms
+"""
 
 if __name__ == '__main__':
     # Default test cases
