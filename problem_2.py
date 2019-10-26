@@ -1,37 +1,3 @@
-# def rotated_array_search(input_list, number):
-#     """
-#     Find the index by searching in a rotated sorted array
-#
-#     Args:
-#        input_list(array), number(int): Input array to search and the target
-#     Returns:
-#        int: Index or -1
-#     """
-#     low = 0
-#     high = len(input_list) - 1
-#
-#     while low <= high:
-#         pivot = (high + low)//2
-#
-#         if number == input_list[pivot]:
-#             return pivot
-#
-#         # Address ordered sequence
-#         elif input_list[low] <= input_list[pivot]:
-#             if input_list[low]<=number and input_list[pivot]>number:
-#                 high = pivot - 1
-#             else:
-#                 # input_list[low]>number or input_list[pivot]<=number
-#                 low = pivot + 1
-#
-#         # Address rotated sequence
-#         elif input_list[low] > input_list[pivot]:
-#             if input_list[high]>=number and input_list[pivot]<number:
-#                 low = pivot + 1
-#             else:
-#                 high = pivot - 1
-#     return -1
-
 def binary_search(nlist, tgt):
     low = 0
     high = len(nlist) - 1
